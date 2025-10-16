@@ -54,7 +54,7 @@ select, input  {
     font-weight: 700;
     font-size: 16px;
     color: #9b9797;
-     cursor: pointer;
+    cursor: pointer;
     
 }
 
@@ -94,6 +94,7 @@ section {
 
 }
 
+
 .currency-box {
     display: flex;
     flex-direction: column;
@@ -105,6 +106,15 @@ section {
     font-size: 14px;
     
 }
+
+.currency-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+
+
 
 .currency-value, .currency-value-to-convert {
     color: #555;
